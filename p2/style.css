@@ -1,0 +1,387 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Poppins', sans-serif;
+}
+/*, url(./img/un2.png)*/
+body {
+	max-height: 20px;
+}
+.p1 {
+	width: 100%;
+height: auto;
+	background-image: url(./img/bg.png);
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
+.logobox {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 30px;
+	position: relative;
+	top: 100px;
+}
+.gap:not(.wrench) {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+ul {
+	position: relative;
+	left: 50px;
+}
+ul {
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: row;
+}
+.wrench  {
+	margin-right: 80px;
+}
+.pa {
+	margin-top: 200px;
+color: #FFF;
+text-align: center;
+font-family: Poppins;
+font-size: 14px;
+font-style: normal;
+font-weight: 600;
+line-height: 22px; /* 157.143% */
+width: 520px;
+margin-bottom: 20px;
+}
+.btn {
+	margin-top: 50px;
+	width: 192px;
+height: 62px;
+flex-shrink: 0;
+color: #FFF;
+text-align: center;
+font-family: Poppins;
+font-size: 18px;
+font-style: normal;
+font-weight: 700;
+line-height: 22px; /* 122.222% */
+border-radius: 10px;
+background: #50B2EA;
+box-shadow: 0px 20px 40px 0px rgba(129, 209, 255, 0.20);
+border: none;
+}
+.one {
+	color: #FFF;
+text-align: center;
+font-family: Poppins;
+font-size: 14px;
+font-style: normal;
+font-weight: 700;
+line-height: 22px; /* 157.143% */
+}
+
+
+
+
+
+
+.p2 {
+  width: 100%;
+  background-color: #fff;
+  z-index: -11;
+  position: relative;
+}
+.p2 .container {
+  position: relative;
+  width: 100%;
+  height: 763px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  gap: 50px;
+}
+.p2 .container .box {
+  width: 1199px;
+  height: 512px;
+  border: 4px solid #f2f2f2;
+  position: relative;
+  display: flex;
+  flex-wrap: nowrap;
+  overflow: hidden;
+  border-radius: 40px;
+}
+.p2 .container .box .txt {
+  padding: 68px 77px 85px 45px;
+  width: 640px;
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  background-color: #50b2ea;
+}
+.p2 .container .box .txt h1 {
+  color: #fff;
+  font-size: 48px;
+  font-weight: 700;
+}
+.p2 .container .box .txt h4 {
+  width: 520px;
+  font-size: 14px;
+  font-weight: 400;
+  color: #19435a;
+}
+.p2 .container .box .txt .drippin input {
+  border-radius: 50px;
+}
+.p2 .container .box .txt .drippin label {
+  color: #fff;
+  font-size: 14px;
+  font-weight: 600;
+  border-radius: 80px;
+}
+.p2 .container .box .man {
+  width: 559px;
+  height: 509px;
+  position: relative;
+}
+.p2 .container .btn1 {
+  cursor: pointer;
+  width: 160px;
+  height: 54px;
+  border-radius: 10px;
+  box-shadow: 0px 20px 20px 0px rgba(129, 209, 255, 0.2);
+  background: #50b2ea;
+  border: 2px solid #fff;
+  font-size: 14px;
+  font-weight: 700;
+  color: #fff;
+}
+.p2 .container > .bgright {
+  position: absolute;
+  width: 48.2%;
+  height: 100%;
+  background: #50b2ea;
+  top: 0;
+  right: 0;
+  z-index: -1;
+}
+
+
+
+.services {
+	width: 100%;
+	height: 390px;
+	background: #50B2EA;
+	text-align: center;
+	padding: 20px;
+	gap: 20px;
+}
+.services img {
+	margin-right: 40px;
+}
+.ser {
+	color: #FFF;
+	text-align: center;
+	font-family: Poppins;
+	font-size: 48px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: normal;
+	padding: 50px 0 50px 0;
+}
+.services a {
+	margin-left: 30px;
+}
+.main {
+	width: 100%;
+	height: 284px;
+	display: flex;
+	justify-content: center;
+	text-align: center;
+}
+.hd {
+	color: #50B2EA;
+	font-family: Poppins;
+	font-size: 18px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: 22px; /* 122.222% */
+	margin-bottom: 10px;
+}
+.sec {
+	color: #19435A;
+	text-align: center;
+	font-family: Poppins;
+	font-size: 14px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 22px; /* 157.143% */
+}
+.main .btn {
+position: relative;
+	right: 550px;
+	top: 150px;
+}
+.btn3 {
+	width: 110px;
+	height: 40px;
+/*	position: relative;
+	right: 490px;
+	top: 200px;*/
+	color: #FFF;
+	text-align: center;
+	font-family: Poppins;
+	font-size: 14px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: 22px; /* 157.143% */
+	border-radius: 7px;
+	border: 2px solid #FFF;
+	background: #50B2EA;
+	box-shadow: 0px 20px 20px 0px rgba(129, 209, 255, 0.20);
+	cursor: pointer;
+}
+.bx1
+ {
+	margin: 27px 0px 50px 115px;
+}
+
+.test {
+	width: 100%;
+	height: 718px;
+	text-align: center;
+	background: #50B2EA;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	flex-wrap: wrap;
+	flex-direction: row;
+}
+.ts {
+	color: #FFF;
+	text-align: center;
+	font-family: Poppins;
+	font-size: 48px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: normal;
+	position: absolute;
+	margin: -600px 0px 0 0px;
+}
+.cour {
+	color: #50B2EA;
+	font-family: Poppins;
+	font-size: 18px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: 22px; /* 122.222% */
+	margin-top: 20px;
+	padding: 20px 0 10px 0;
+	margin-bottom: 20px;
+}
+.opis {
+	color: #19435A;
+	font-family: Poppins;
+	font-size: 14px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 22px; /* 157.143% */
+}
+.first{
+	border-radius: 20px;
+	width: 600px;
+	height: 233px;
+	flex-shrink: 0;
+	background: white;
+	text-align: left;
+
+}
+.first p,
+.first p,
+.first p,
+.first p {
+	margin-left: 130px;
+}
+.first img,
+.first img,
+.first img,
+.first img {
+	position: absolute;
+	margin-top: 20px;
+	margin-left: 30px;
+}
+.first {
+	margin-bottom: 40px;
+}
+.first {
+	margin-bottom: 40px;
+}
+.formbox {
+	width: 100%;
+	height: 520px;
+}
+.bts {
+    padding: 50px 0;
+}
+
+.bts .txt {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.bts .txt .title {
+    color: #50B2EA;
+    text-align: center;
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.bts .txt .formc {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    gap: 14px;
+}
+
+.bts .txt .formc .input  {
+    width: 360px;
+    height: 54px;
+    border-radius: 40px;
+    opacity: 0.5;
+    background: #50B2EA;
+    padding: 20px;
+    border: none;
+    outline: none;
+    font-size: 18px;
+}
+
+
+.bts .txt .formc .input:last-child {
+    width: 148px;
+    background: #50B2EA;
+    opacity: 1;
+    cursor: pointer;
+    transition: all .3s ease;
+    color: #FFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 500;
+}
+
+
+form h2 {
+	color: #50B2EA;
+text-align: center;
+font-family:'Poppins', sans-serif;
+font-size: 48px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}

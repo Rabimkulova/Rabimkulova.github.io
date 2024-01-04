@@ -1,0 +1,274 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+
+}
+.container {
+    width: 100%;
+    height: 100vh;
+}
+.p1 {
+    background-color: #FEF4DE;
+    background-image: url(bgpng.png);
+    width: 100%;
+    height: 100vh;
+
+}
+.what {
+    display: flex;
+    justify-content: left;
+    align-items: left;
+    flex-direction: column;
+    margin: 160px 230px;
+
+}
+.svgtop {
+    width: 100%;
+    height: auto;
+}
+.what .header {
+    height: auto;
+    width: 50%;
+    margin-bottom: 35px;
+}
+.what .lor {
+    width: 100%;
+    height: auto;
+    color: #663128;
+font-family: 'Poppins', sans-serif;
+font-size: 16px;
+font-style: normal;
+font-weight: 300;
+line-height: 24px; /* 150% */
+color: #663128;
+    margin-bottom: 35px;
+
+}
+.btn1{
+    width: 210px;
+height: 66px;
+flex-shrink: 0;
+border-radius: 57px;
+background: #F3CE5E;
+box-shadow: 0px 20px 40px 0px rgba(243, 206, 94, 0.20);
+color: #000;
+border: none;
+}
+.bear {
+    width: 450px;
+    height: auto;
+   display: inline-flex;
+   justify-content: right;
+   align-items: center;
+   position: absolute;
+   right: 200px;
+   top: 190px;
+
+}
+.bott{
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    
+}
+.v2 {
+    width: 100%;
+}
+
+
+footer {
+    width: 100%;
+}
+
+.a1 {
+    background-color: #7C4032;
+}
+
+.ser {
+    font-size: 64px;
+    color: white;
+    justify-content: center;
+    display: flex;
+    font-family: 'Poppins', sans-serif;
+    padding: 56px 0 50px 0;
+}
+
+.box1 {
+    text-align: center;
+    align-items: center;
+    display: flex;
+    padding: 12px;
+    width: 288px;
+height: 269px;
+flex-shrink: 0;
+border-radius: 20px;
+background: #FFF;
+}
+
+.blok {
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+    gap: 10px;
+}
+
+.buttbox {
+    justify-content: center;
+    display: flex;
+    padding: 60px 0 50px 0;
+}
+
+.button {
+    width: 210px;
+    height: 66px;
+    background-color: #F3CE5E;
+    border: none;
+    color: #663128;
+    font-weight: 700;
+    font-size: 18px;
+    border-radius: 57px;
+    box-shadow: 0px 20px 40px 0px #F3CE5E33;
+}
+
+
+
+
+.a2 {
+    width: 100%;
+    background: url(bgpng.png);
+    background-color: #FEF4DE;
+}
+
+.test {
+    font-family: 'Poppins', sans-serif;
+    color: #7C4032;
+    justify-content: center;
+    display: flex;
+    font-size: 64px;
+    font-weight: 900;
+    line-height: 96px;
+    padding: 50px 0 0;
+}
+
+.cont0 {
+    justify-content: center;
+    display: flex;
+    padding: 25px;
+    gap: 50px;
+}
+
+.cont2 {
+    height: 220px;
+    width: 512px;
+    border-radius: 30px;
+    background-color: white;
+    text-align: start;
+    align-items: start;
+    border: 1px solid #7C4032;
+}
+
+.cont2 h1 {
+    color: #7C4032;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    padding: 20px 0 10px 50px;
+}
+
+.cont2 p {
+    font-size: 14px;
+    padding: 0 50px 21px 50px;
+}
+
+.cont2 img {
+    padding: 0 0 0 50px;
+}
+
+
+
+
+.a3 {
+    width: 100%;
+    padding-bottom: 50px;
+}
+
+.center {
+    justify-content: center;
+    display: flex;
+}
+
+.contact {
+    font-family: 'Poppins', sans-serif;
+    font-size: 64px;
+    color: #7C4032;
+    text-align: center;
+}
+
+.boxend {
+    height: 266px;
+    width: 788px;
+    display: flex;
+    gap: 103px;
+}
+
+.boxend2 {
+    padding-top: 30px;
+}
+
+.email {
+    padding: 16px 0 16px 0;
+    display: flex;
+}
+
+.email img {
+    padding-right: 18px;
+}
+
+.email p {
+    font-size: 14px;
+}
+.vec1 {
+    width: auto;
+    height: auto;
+}
+.geo {
+    width: 35px;
+    height: 35px;
+}
+
+input {
+    height: 56px;
+    width: 374px;
+    border-radius: 61px;
+    background-color: #E5AF99;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    font-size: 18px;
+    border: none;
+    margin-bottom: 14px;
+}
+
+.cl {
+    justify-content: center;
+    display: flex;
+}
+
+.click {
+    height: 56px;
+    width: 168px;
+    border-radius: 61px;
+    text-align: center;
+    align-items: center;
+    font-size: 18px;
+    color: #7C4032;
+    border: 2px solid #663128;
+}
+
+.end {
+    width: 100%;
+    height: 117px;
+    background-color: #55352D;
+}
