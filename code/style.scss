@@ -75,7 +75,6 @@ body {
 button {
   width: 240px;
   height: 90px;
-  font-size: 2em;
   background: transparent;
   color: #fff;
   border: 1px solid black;
@@ -91,7 +90,6 @@ button::after {
   content: "";
   position: absolute;
   z-index: -1;
-  padding: 0.85em 0.75em;
   display: block;
 }
 .tel::after {
