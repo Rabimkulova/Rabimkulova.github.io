@@ -1,0 +1,156 @@
+* {
+    transition: all 0.3s;
+}
+
+.fixed {
+    position: fixed;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    top: 35%;
+    margin-left: 30px;
+    z-index: 999999999;
+}
+
+.btn11 {
+    width: 70px;
+    height: 70px;
+    font-size: 30px;
+    /* background: t; */
+    color: #fff;
+    border: 1px solid black;
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+    transition: 0.3s;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    border: none;
+    text-transform: uppercase;
+    overflow: hidden;
+}
+
+.btn11:hover {
+    width: 230px;
+    height: 70px;
+}
+
+.btn11::before,
+.btn11::after {
+    font-family: 'Rubik';
+    font-size: 18px;
+    transition: all 0.3s;
+}
+.btn11::after {
+    content: "";
+    position: absolute;
+    left: 50px;
+    z-index: -1;
+    display: block;
+    display: flex;
+    align-items: center;
+}
+
+.tel::after {
+    content: "TELEGRAM";
+}
+
+.you {
+    color: red;
+}
+
+.you::before {
+    content: "";
+    position: absolute;
+    left: 240px;
+    top: 0;
+    color: #f00;
+    width: 100%;
+    height: 100%;
+}
+
+.you:hover::before {
+    transition-delay: 0.1s;
+    left: 0;
+}
+
+.you::after {
+    content: "YouTube";
+    position: relative;
+    left: 240px;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    color: red;
+    z-index: 9;
+}
+
+.you:hover::after {
+    left: 35px;
+    transition-delay: 0.1s;
+}
+
+.fac {
+    color: blue;
+}
+
+.fac:hover::after {
+    left: 35px;
+    transition-delay: 0.1s;
+}
+
+.fac::after {
+    content: "Facebook";
+    position: absolute;
+    left: 240px;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    color: blue;
+    z-index: 9;
+}
+
+.tel {
+    color: #0088cc;
+}
+
+.tel::after {
+    content: "Telegram";
+    position: absolute;
+    left: 240px;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    color: dodgerblue;
+    z-index: 9;
+}
+
+.tel:hover::after {
+    left: 35px;
+    transition-delay: 0.1s;
+}
+
+.fab {
+    transition: all 0.3s;
+    position: absolute;
+}
+
+
+/*# sourceMappingURL=style.css.map */
+
+.btn11:hover .fab {
+    transform: scale(0.7);
+    animation: anim 0.5s linear infinite;
+    animation-delay: 0.3s;
+}
+
+@keyframes anim {
+    0% {
+        transform: scale(0.7);
+    }
+    50% {
+        transform: scale(0.9);
+    }
+}
