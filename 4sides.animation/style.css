@@ -1,0 +1,164 @@
+* {
+	margin:0;
+	padding: 0;
+box-sizing: border-box;
+background-color: dodgerblue;
+}
+body {
+width: 100%;
+height: 100vh;
+display: flex;
+justify-content: center;
+align-items: center;
+
+}
+.class {
+	 width: 200px;
+  height: 200px;
+  background-color: black;
+display: flex;
+justify-content: center;
+align-items: center;
+position: relative;
+}
+span {
+	height: 20px;
+	width: 20px;
+	border-radius: 50%;
+	background-color: black;
+	position: absolute;
+	top: calc(50% - 10px);
+	left: calc(50% - 10px);
+	bottom: calc(50% - 10px);
+	right: calc(50% - 10px);
+	transition: 0.6s all;
+}
+
+
+
+.class:hover .k:nth-child(1) {
+top: -20px;
+left: -20px;
+animation: span1 2s linear infinite;
+animation-delay: 0.5s;
+	background-color: blue;
+
+}
+
+@keyframes span1 {
+	0%, 100% {
+		top: -20px;
+		left: -20px;
+
+	}
+	25% {
+		left: 100%;
+		top:-20px;
+	}
+	50% {
+		top: 100%;
+		left: 100%; 
+	}
+	75% {
+		top:  100%;
+		left: -20px;
+	}
+		100% {
+		filter: hue-rotate(360deg);
+		
+	}
+}
+.class:hover .k:nth-child(2) {
+top: -20px;
+left: 100%;
+animation: span2 2s linear infinite;
+animation-delay: 0.5s;
+	background-color: yellow;
+
+}
+
+@keyframes span2 {
+	0%, 100% {
+		top: -20px;
+		left: 100%;
+	}
+	25% {
+		left: 100%;
+		top:100%;
+	}
+	50% {
+		top: 100%;
+		left:-20px; 
+	}
+	75% {
+		top:  -20px;
+		left: -20px;
+	}
+		100% {
+		filter: hue-rotate(360deg);
+		
+	}
+}
+.class:hover .k:nth-child(3) {
+top: 100%;
+left: 100%;
+animation: span3 2s linear infinite;
+animation-delay: 0.5s;
+	background-color: green;
+
+}
+
+@keyframes span3 {
+	0%, 100% {
+		top: 100%;
+		left: 100%;
+	}
+	25% {
+		left: -20px;
+		top: 100%;
+	}
+	50% {
+		top: -20px;
+		left:-20px; 
+	}
+	75% {
+		top:  -20px;
+		left: 100%;
+	}
+	100% {
+		filter: hue-rotate(360deg);
+		
+	}
+}
+
+.class:hover .k:nth-child(4) {
+top: 100%;
+left: -20px;
+animation: span4 2s linear infinite;
+	background-color: red;
+animation-delay: 0.5s;	
+
+}
+
+@keyframes span4 {
+	0%, 100% {
+		top: 100%;
+		left: -20px;
+	}
+	25% {
+		top: -20px;
+		left: -20px;
+	}
+	50% {
+		top: -20px;
+		left: 100%; 
+	}
+	75% {
+		top:  100%;
+		left: 100%;
+	}
+	100% {
+		filter: hue-rotate(360deg);
+		
+	}
+}
