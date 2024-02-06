@@ -1,0 +1,83 @@
+@font-face {
+    font-family: "Brown Sugar";
+    src: url(font/Brown\ Sugar\ .ttf);
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.head {
+max-width: 1400px;
+margin: 0px auto;
+border: 1px solid red;
+
+.container {
+    width: 1400px;
+    height: auto;
+    border: 1px solid black;
+}
+.images {
+    width: 602px;
+    height: 730px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+}
+.bold {
+    font: 500 1410px/138px "Brown Sugar";
+}
+.txt {
+    font: 400 28px/30px 'Playfair Display SC', serif;
+}
+.text {
+    font: 400 23px/30px 'PT Sans Caption', serif;
+}
+.right {
+width: 660px;
+height: 90px;
+    .bold {
+position: relative;
+bottom: 620px;
+left: 660px;
+width: 400px;
+}
+.txt {
+    width: 600px;
+    position: relative;
+    bottom: 485px;
+    letter-spacing: 1px;
+    left: 660px;
+    margin-bottom: 7px;
+
+}
+.text {
+    position: relative;
+    bottom: 485px;
+    left: 660px;
+    color: rgb(178, 180, 181);
+    letter-spacing: 3px;
+}
+}
+.left2 {
+    width: 596px;
+    height: 698px;
+    @include indent;
+}
+.right2 {
+@extend .right;
+width: 218px;
+position: relative;
+left: 0px;
+.txt{
+    height: 80px;
+}
+}
+ul {
+    position: relative;
+    bottom: 60px;
+
+}
+
+
+}
