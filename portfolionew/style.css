@@ -16,7 +16,7 @@
         }
         
         .head .container {
-            width: 100%;
+            max-width: 100%;
             height: auto;
         }
         
@@ -36,7 +36,7 @@
         }
         
         .head .bold {
-            font: 500 120px/138px "Brown Sugar";
+            font: 500 100px/138px "Brown Sugar";
         }
         
         .head .txt {
@@ -58,7 +58,7 @@
             position: relative;
             bottom: 640px;
             left: 660px;
-            width: 700px;
+            width: 500px;
         }
         
         .head .right .txt,
@@ -182,6 +182,7 @@
         .work {
             position: relative;
             top: 400px;
+            
         }
         
         .boxe {
@@ -214,13 +215,7 @@
         .pt {
             margin-top: 20px;
         }
-        .name {
-            position: relative;
-            bottom: 40px;
-        }
-        .icon {
-            z-index: 999;
-        }
+        
         .link {
             width: 130px;
             border-radius: 60px;
@@ -279,44 +274,76 @@
             background-color: rgb(51, 51, 56);
             margin-left: 800px;
         }
-        .ul {
-            z-index: 999;
-        }
+        
         @media screen and (max-width:590px) {
-            html {
-                width: 100%;
-            }
-         .bpr {
-            z-index: 999;
-            width: 700px;
-position: relative;
-right: 690px;
-            }
-            .conatiner {
-                width: 100%;
-            }
             .main {
                 width: 100%;
                 position: relative;
                 right: 650px;
+            }
+            .home1 {
+                position: relative;
+                right: 600px;
+            }
+            body {
+position: relative;
+right: 50px;
+
+            }
+            .bold {
+                font-size: 30px;
+            }
+            .home2{
+                position: relative;
+                right: 80px;
+            }
+
+            .work {
+                width: 100%;
+            }
+            .container {
+                width: 100%;
+            }
+            .ul {
+                position: relative;
+                top: 10px;
+                bottom: 10px;
+                display: flex;
+                flex-direction: row;
+                gap: 80px;
+            }
+            .col1 {
+                position: relative;
+                right: 150px;
+            }
+            .col2 {
+                position: relative;
+                bottom: 55px;
+                right: 80px;
+                gap: 90px;
             }
             .imgs,
             .im3 {
                 display: none;
                 z-index: -1;
             }
+            .head {
+                width: 100%;
+            }
+            .work {
+                position: relative;
+                left: 70px;
+                
+            }
+            .box {
+                z-index: 99;
+            }
             .txt {
                 z-index: 999;
             }
             .bold {
-                position: relative;
-              left: 350px;
-                width: 100%;
+                width: 500px;
                 font: 500 50px/138px "Brown Sugar";
-            }
-            .sk {
-                position: relative;
-                left: 580px;
             }
             .sec3,
             .pro {
@@ -330,33 +357,18 @@ right: 690px;
             .bold {
                 z-index: 99;
             }
-            .work {
-                display: flex;
-                flex-direction: column;
-
-            }
-            .home {
-                width: 400px;
-                height: 400px;
-            }
             .col1,
             .col2 {
                 width: 100px;
                 display: flex;
                 flex-direction: column;
             }
-       
-         .ul  {
-            position: relative;
-            z-index: 99999;
-            left: 500px;
-            z-index: -1;
-         }
-            .work {
+            .boxe {
                 position: relative;
-                left: 350px;
+                left: 70px;
             }
-            .box  {
-                z-index: 99;
+            .bpr {
+                position: relative;
+                right: 180px;
             }
         }
