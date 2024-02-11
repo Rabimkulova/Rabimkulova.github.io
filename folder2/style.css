@@ -1,0 +1,89 @@
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+
+    }
+    body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        width: 100%;
+    }
+    .all {
+        max-width: 800px;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 30px;
+    }
+     .work {
+            position: relative;
+            top: 400px;
+            
+        }
+        
+        .boxe {
+            border-radius: 30px;
+            display: flex;
+            color: #fff;
+            flex-direction: column;
+            width: 380px;
+            height: 300px;
+            background-color: #2c2d30;
+            font: 400 20px/30px "Playfair Display SC", serif;
+            text-indent: 40px;
+        }
+        
+        .b-im {
+            width: 350px;
+            height: 220px;
+            border-radius: 30px;
+            margin: 13px 13px 3px 13px;
+        }
+        
+        .box {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            gap: 9px;
+        }
+        
+        .pt {
+            margin-top: 20px;
+        }
+        
+        .link {
+            width: 130px;
+            border-radius: 60px;
+            background-color: #2c2d30;
+            color: rgb(126, 176, 237);
+            font-family: 'Montserrat', sans-serif;
+            text-decoration: none;
+            position: relative;
+            left: 20px;
+        }
+        
+        .work {
+            width: 1250px;
+            justify-content: center;
+            align-items: center;
+            display: flex;
+            gap: 30px;
+            flex-wrap: wrap;
+        }
+                .bold {
+            text-transform: uppercase;
+            background-image: linear-gradient( -225deg, #C0C2C7 0%, #5A5D63 9%, #929292 67%, #16171a 100%);
+            background-size: auto auto;
+            background-clip: border-box;
+            background-size: 200% auto;
+            color: #fff;
+            background-clip: text;
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            animation: textclip 4s linear infinite;
+            display: inline-block;
+            font-size: 190px;
+        }
