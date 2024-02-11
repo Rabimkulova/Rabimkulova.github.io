@@ -1,0 +1,349 @@
+        @font-face {
+            font-family: "Brown Sugar";
+            src: url(font/Brown\ Sugar\ .ttf);
+        }
+        
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            background-color: #dbd8db;
+        }
+        
+        .head {
+            max-width: 1400px;
+            margin: 0px auto;
+        }
+        
+        .head .container {
+            max-width: 100%;
+            height: auto;
+        }
+        
+        .head .images {
+            width: 602px;
+            height: 730px;
+            display: flex;
+            justify-content: space-around;
+            flex-direction: column;
+        }
+        
+        .head .imgs {
+            width: 602px;
+            height: 352px;
+            position: relative;
+            top: 10px;
+        }
+        
+        .head .bold {
+            font: 500 130px/138px "Brown Sugar";
+        }
+        
+        .head .txt {
+            font: 400 28px/30px "Playfair Display SC", serif;
+        }
+        
+        .head .text {
+            font: 400 23px/30px "PT Sans Caption", serif;
+        }
+        
+        .head .right,
+        .head .right2 {
+            width: 660px;
+            height: 90px;
+        }
+        
+        .head .right .bold,
+        .head .right2 .bold {
+            position: relative;
+            bottom: 640px;
+            left: 460px;
+            width: 800px;
+        }
+        
+        .head .right .txt,
+        .head .right2 .txt {
+            width: 700px;
+            position: relative;
+            bottom: 485px;
+            letter-spacing: 1px;
+            height: auto;
+            left: 660px;
+            margin-bottom: 7px;
+        }
+        
+        .head .right .text,
+        .head .right2 .text {
+            position: relative;
+            bottom: 485px;
+            left: 660px;
+            color: rgb(178, 180, 181);
+            letter-spacing: 3px;
+        }
+        
+        .head .left2 {
+            width: 196px;
+            height: 698px;
+            position: relative;
+            top: 10px;
+        }
+        
+        .im3 {
+            width: 602px;
+            height: auto;
+            margin-top: 10px;
+        }
+        
+        .head .right2 .txt {
+            height: 65px;
+        }
+        
+        .head ul {
+            position: relative;
+            bottom: 130px;
+        }
+        
+        .t1:hover::after {
+            content: "   Rabimkulova Tozagul Sanjarovna";
+            transition: 3s all linear;
+            animation: aft 1s linear;
+            transition-delay: 3s;
+        }
+        
+        .t2:hover::after {
+            content: "   Uzbekistan, Samarkand";
+            transition: 3s all linear;
+            animation: aft 1s linear;
+        }
+        
+        .t3:hover::after {
+            content: "   9th-grade, 16th-hight school Samarkand";
+            transition: 3s all linear;
+            animation: aft 1s linear;
+        }
+        
+        .t4:hover::after {
+            content: "   ICT, Foreign Languages";
+            transition: 3s all linear;
+            animation: aft 1s linear;
+        }
+        
+        .t5:hover::after {
+            content: "   English(Up-int), Russian(Adv), Uzbek(Adv), Tajik(Adv), Korean(Bgn)";
+            transition: 3s all linear;
+            animation: aft 1s linear;
+        }
+        
+        .t6:hover::after {
+            content: "   Badmington";
+            transition: 3s all linear;
+            animation: aft 1s linear;
+        }
+        
+        .t7:hover::after {
+            content: "   Become master of the job";
+            transition: 3s all linear;
+            animation: aft 1s linear;
+        }
+        
+        .skills {
+            width: 700px;
+            z-index: 9999;
+            position: absolute;
+        }
+        
+        .icons {
+            width: 180px;
+        }
+        
+        .col1,
+        .col2 {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            position: relative;
+            gap: 80px 80px;
+            top: 300px;
+        }
+        
+        .icon {
+            width: 140px;
+        }
+        
+        .col2 {
+            margin-top: 40px;
+        }
+        
+        .pro {
+            position: relative;
+            top: 300px;
+        }
+        
+        .work {
+            position: relative;
+            top: 400px;
+        }
+        
+        .boxe {
+            border-radius: 30px;
+            display: flex;
+            color: #fff;
+            flex-direction: column;
+            width: 380px;
+            height: 300px;
+            background-color: #2c2d30;
+            font: 400 20px/30px "Playfair Display SC", serif;
+            text-indent: 40px;
+        }
+        
+        .b-im {
+            width: 350px;
+            height: 220px;
+            border-radius: 30px;
+            margin: 13px 13px 3px 13px;
+        }
+        
+        .box {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            gap: 9px;
+        }
+        
+        .pt {
+            margin-top: 20px;
+        }
+        
+        .link {
+            width: 130px;
+            border-radius: 60px;
+            background-color: #2c2d30;
+            color: rgb(126, 176, 237);
+            font-family: 'Montserrat', sans-serif;
+            text-decoration: none;
+            position: relative;
+            left: 20px;
+        }
+        
+        .work {
+            width: 1500px;
+            justify-content: center;
+            align-items: center;
+            display: flex;
+            gap: 30px;
+            flex-wrap: wrap;
+        }
+        
+        .bold {
+            text-transform: uppercase;
+            background-image: linear-gradient( -225deg, #C0C2C7 0%, #5A5D63 9%, #929292 67%, #16171a 100%);
+            background-size: auto auto;
+            background-clip: border-box;
+            background-size: 200% auto;
+            color: #fff;
+            background-clip: text;
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            animation: textclip 4s linear infinite;
+            display: inline-block;
+            font-size: 190px;
+        }
+        
+        @keyframes textclip {
+            to {
+                background-position: 200% center;
+            }
+        }
+        
+        footer {
+            position: relative;
+            bottom: -400px;
+            margin-top: 60px;
+            width: 100%;
+            height: 40px;
+            background-color: rgb(51, 51, 56);
+            color: white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        
+        .foot {
+            background-color: rgb(51, 51, 56);
+            margin-left: 800px;
+        }
+        
+        @media screen and (max-width:590px) {
+            .bold {
+                position: relative;
+                right: 900px;
+            }
+            .home1 {
+                position: relative;
+                right: 600px;
+            }
+            .home2 {
+                position: relative;
+                right: 120px;
+            }
+            .work {
+                width: 100%;
+            }
+            .container {
+                width: 100%;
+            }
+            .ul {
+                position: relative;
+                top: 10px;
+                bottom: 10px;
+                display: flex;
+                flex-direction: row;
+                gap: 80px;
+            }
+            .col1 {
+                position: relative;
+                right: 90px;
+            }
+            .col2 {
+                position: relative;
+                bottom: 15px;
+                gap: 90px;
+            }
+            .imgs,
+            .im3 {
+                display: none;
+                z-index: -1;
+            }
+            .head {
+                width: 100%;
+            }
+            .txt {
+                z-index: 999;
+            }
+            .bold {
+                transform: scale(0.5);
+                width: 500px;
+                font: 500 50px/138px "Brown Sugar";
+            }
+            .sec3,
+            .pro {
+                position: relative;
+                left: 320px;
+                width: 100%;
+                display: flex;
+                justify-content: center;
+                flex-wrap: wrap;
+            }
+            .col1,
+            .col2 {
+                width: 100px;
+                display: flex;
+                flex-direction: column;
+            }
+            .bpr {
+                width: 600px;
+                position: relative;
+                right: 320px;
+            }
+        }
