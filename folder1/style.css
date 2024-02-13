@@ -39,9 +39,14 @@
             width: 350px;
             height: 220px;
             border-radius: 30px;
-            margin: 13px 13px 3px 13px;
+        overflow:hidden;
+           margin: 13px 13px 3px 13px;
         }
+        .image {
         
+        
+        
+        }
         .box {
             display: flex;
             justify-content: center;
