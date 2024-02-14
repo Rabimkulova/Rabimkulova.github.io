@@ -40,6 +40,10 @@ header {
   align-items: center;
   font-family: 'Montserrat', sans-serif;
 }
+.header {
+  position: relative;
+  z-index: -1;
+}
 .navbar .logo a {
   color: #9B4819;
   font-size: 1.5rem;
