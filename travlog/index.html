@@ -28,9 +28,11 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
     <style>
         /* Custom styles for this template */
+        
         * {
             font-family: Poppins, sans-serif;
         }
+        
         .navbar-custom {
             background-color: #f8f9fa;
         }
@@ -54,6 +56,9 @@
             .navbar-expand-md .navbar-nav-center {
                 position: static;
                 transform: none;
+            }
+            .nav {
+                display: none;
             }
         }
         
@@ -225,6 +230,9 @@
             .left-text {
                 font-size: 16px;
                 /* Reduce font size on smaller screens */
+            }
+            .logotip {
+                margin-top: 55px;
             }
         }
         
@@ -449,7 +457,7 @@
         <a href="/" class="d-inline-flex link-body-emphasis text-decoration-none">
             <svg class="bi" width="40" height="32" role="img" aria-label="Bootstrap"><use xlink:href="#bootstrap"></use></svg>
         </a>
-        <img src="logo.svg">
+        <img src="logo.svg" class="logotip">
 
     </div>
 
@@ -764,7 +772,7 @@
         <p class="float-end mb-1">
             <a href="#">Back to top</a>
         </p>
-       
+
     </div>
 </footer>
 <script src="example/assets/dist/js/bootstrap.bundle.min.js"></script>
