@@ -59,7 +59,7 @@
             }
         }
         
-        @media (max-width:730px) {
+        @media (max-width:780px) {
             .nav {
                 display: none;
             }
@@ -235,7 +235,13 @@
                 /* Reduce font size on smaller screens */
             }
             .logotip {
-                margin-top: 55px;
+                position: relative;
+                top: 55px;
+            }
+            .logo-wrap {
+                display: flex;
+                justify-content: center;
+                align-items: center;
             }
         }
         
@@ -279,7 +285,9 @@
         }
         
         .big {
-            align-self: stretch;
+            display: flex;
+            justify-content: center;
+            align-items: center;
             margin-top: 32px;
         }
         
@@ -297,7 +305,6 @@
         @media (max-width: 991px) {
             .div-2 {
                 flex-direction: column;
-                align-items: stretch;
                 gap: 0px;
             }
         }
@@ -324,17 +331,16 @@
             border-width: 1px;
             background-color: var(--white, color(display-p3 1 1 1));
             display: flex;
-            flex-grow: 1;
             justify-content: center;
             width: 100%;
-            padding: 32px;
+            padding: 92px 0;
         }
         
         @media (max-width: 991px) {
             .div-3 {
                 max-width: 100%;
                 margin-top: 12px;
-                padding: 0 20px;
+                padding: 20px 20px 20px 20px;
             }
         }
         
@@ -364,30 +370,30 @@
         }
         
         @media (max-width: 991px) {
-            .column-22 {
+            /* .column-22 {
                 width: 100%;
-            }
+            } */
         }
         
-        .div-7 {
+        .div-3 {
             align-items: center;
-            border-radius: 32px;
+            border-radius: 22px;
             border-color: rgba(25, 24, 37, 0.1);
             border-style: solid;
             border-width: 1px;
             background-color: var(--white, color(display-p3 1 1 1));
             display: flex;
-            flex-grow: 1;
+            width: 200px;
             justify-content: center;
             width: 100%;
-            padding: 32px;
+            padding: 20PX 20PX 20px 20px;
         }
         
         @media (max-width: 991px) {
             .div-7 {
                 max-width: 100%;
                 margin-top: 32px;
-                padding: 0 20px;
+                padding: 10PX 40px;
             }
         }
         
@@ -502,7 +508,7 @@
   </div> -->
 
     <div class="container">
-        <div class="row" style="gap: 30px;">
+        <div class="row logo-wrap" style="gap: 30px;">
             <div class="col-lg-2 col-md-3 col-sm-4 col-6 mb-4">
                 <img src="1s.png" alt="Partner 1" class="partner-logo img-fluid">
             </div>
@@ -563,130 +569,129 @@
 
 
 
-<section class="pt-5 pb-5">
-    <div class="container con1">
-        <div class="row">
-            <div class="col-md-6">
-                <div class="left-text" style="width: 400px;">
-                    <h2 class="pinktext ">top destination</h2>
-                    <h3 class="secondtext " style="width: 500px;">Explore destination</h3><br>
-                </div>
+
+<div class="container con1 pt-5 pb-5">
+    <div class="row">
+        <div class="col-md-6">
+            <div class="left-text" style="width: 400px;">
+                <h2 class="pinktext ">top destination</h2>
+                <h3 class="secondtext " style="width: 400px;">Explore destination</h3><br>
             </div>
-            <div class="col-6 text-right">
-                <a class="btn btn-primary mb-3 mr-1" href="#carouselExampleIndicators2" role="button" data-slide="prev">
-                    <i class="fa fa-arrow-left"></i>
-                </a>
-                <a class="btn btn-primary mb-3 " href="#carouselExampleIndicators2" role="button" data-slide="next">
-                    <i class="fa fa-arrow-right"></i>
-                </a>
-            </div>
-            <div class="col-12">
-                <div id="carouselExampleIndicators2" class="carousel slide" data-ride="carousel">
+        </div>
+        <div class="col-6 text-right">
+            <a class="btn btn-primary mb-3 mr-1" href="#carouselExampleIndicators2" role="button" data-slide="prev">
+                <i class="fa fa-arrow-left"></i>
+            </a>
+            <a class="btn btn-primary mb-3 " href="#carouselExampleIndicators2" role="button" data-slide="next">
+                <i class="fa fa-arrow-right"></i>
+            </a>
+        </div>
+        <div class="col-12">
+            <div id="carouselExampleIndicators2" class="carousel slide" data-ride="carousel">
 
-                    <div class="carousel-inner">
-                        <div class="carousel-item active">
-                            <div class="row">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="row">
 
-                                <div class="col-md-4 mb-3">
-                                    <div class="card" style="width: 18rem; height: 500px;">
-                                        <img src="rec.svg" class="card-img-top" alt="...">
-                                        <br>
-                                        <div class="card-body">
-                                            <h5 class="card-title">Ocean with full of Colors</h5>
-                                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                            <h6 class="text-secondary">
-                                                Maldives
-                                            </h6>
+                            <div class="col-md-4 mb-3">
+                                <div class="card" style="width: 18rem ;  height: 400px;height: 400px;">
+                                    <img src="rec.svg" class="card-img-top" alt="...">
+                                    <br>
+                                    <div class="card-body">
+                                        <h5 class="card-title">Ocean with full of Colors</h5>
+                                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                        <h6 class="text-secondary">
+                                            Maldives
+                                        </h6>
 
-                                        </div>
                                     </div>
                                 </div>
-                                <div class="col-md-4 mb-3">
-                                    <div class="card" style="width: 18rem; height: 500px;">
-                                        <img src="rec.svg" class="card-img-top" alt="...">
-                                        <br>
-                                        <div class="card-body">
-                                            <h5 class="card-title">Ocean with full of Colors</h5>
-                                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                            <h6 class="text-secondary">
-                                                Maldives
-                                            </h6>
-
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-md-4 mb-3">
-                                    <div class="card" style="width: 18rem; height: 500px;">
-                                        <img src="rec.svg" class="card-img-top" alt="...">
-                                        <br>
-                                        <div class="card-body">
-                                            <h5 class="card-title">Ocean with full of Colors</h5>
-                                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                            <h6 class="text-secondary">
-                                                Maldives
-                                            </h6>
-
-                                        </div>
-                                    </div>
-                                </div>
-
                             </div>
-                        </div>
-                        <div class="carousel-item">
-                            <div class="row">
+                            <div class="col-md-4 mb-3">
+                                <div class="card" style="width: 18rem ;  height: 400px;">
+                                    <img src="rec.svg" class="card-img-top" alt="...">
+                                    <br>
+                                    <div class="card-body">
+                                        <h5 class="card-title">Ocean with full of Colors</h5>
+                                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                        <h6 class="text-secondary">
+                                            Maldives
+                                        </h6>
 
-                                <div class="col-md-4 mb-3">
-                                    <div class="card" style="width: 18rem; height: 500px;">
-                                        <img src="ff.png" class="card-img-top" alt="...">
-
-                                        <div class="card-body">
-                                            <h5 class="card-title">Ocean with full of Colors</h5>
-                                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                            <h6 class="text-secondary">
-                                                Maldives
-                                            </h6>
-
-                                        </div>
                                     </div>
                                 </div>
-                                <div class="col-md-4 mb-3">
-                                    <div class="card" style="width: 18rem; height: 500px;">
-                                        <img src="mid.svg" class="card-img-top" alt="...">
-
-                                        <div class="card-body">
-                                            <h5 class="card-title">Ocean with full of Colors</h5>
-                                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                            <h6 class="text-secondary">
-                                                Maldives
-                                            </h6>
-
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-md-4 mb-3">
-                                    <div class="card" style="width: 18rem; height: 500px;">
-                                        <img src="las.svg" class="card-img-top" alt="...">
-
-                                        <div class="card-body">
-                                            <h5 class="card-title">Ocean with full of Colors</h5>
-                                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                            <h6 class="text-secondary">
-                                                Maldives
-                                            </h6>
-
-                                        </div>
-                                    </div>
-                                </div>
-
                             </div>
-                        </div>
+                            <div class="col-md-4 mb-3">
+                                <div class="card" style="width: 18rem ;  height: 400px;">
+                                    <img src="rec.svg" class="card-img-top" alt="...">
+                                    <br>
+                                    <div class="card-body">
+                                        <h5 class="card-title">Ocean with full of Colors</h5>
+                                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                        <h6 class="text-secondary">
+                                            Maldives
+                                        </h6>
 
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
                     </div>
+                    <div class="carousel-item">
+                        <div class="row">
+
+                            <div class="col-md-4 mb-3">
+                                <div class="card" style="width: 18rem ;  height: 400px;">
+                                    <img src="ff.png" class="card-img-top" alt="...">
+
+                                    <div class="card-body">
+                                        <h5 class="card-title">Ocean with full of Colors</h5>
+                                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                        <h6 class="text-secondary">
+                                            Maldives
+                                        </h6>
+
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4 mb-3">
+                                <div class="card" style="width: 18rem ;  height: 400px;">
+                                    <img src="mid.svg" class="card-img-top" alt="...">
+
+                                    <div class="card-body">
+                                        <h5 class="card-title">Ocean with full of Colors</h5>
+                                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                        <h6 class="text-secondary">
+                                            Maldives
+                                        </h6>
+
+                                    </div>
+                                </div>big
+                            </div>
+                            <div class="col-md-4 mb-3">
+                                <div class="card" style="width: 18rem ;  height: 400px;">
+                                    <img src="las.svg" class="card-img-top" alt="...">
+
+                                    <div class="card-body">
+                                        <h5 class="card-title">Ocean with full of Colors</h5>
+                                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                        <h6 class="text-secondary">
+                                            Maldives
+                                        </h6>
+
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
                 </div>
             </div>
         </div>
     </div>
-</section>
+</div>
 
 <div class="py-5 text-left container">
     <div class="row">
@@ -696,7 +701,7 @@
         <div class="col-md-6">
             <div class="left-text" style="width: 400px; height: auto;">
                 <h2 class="pinktext ">Travel Point</h2>
-                <h3 class="secondtext " style="width: 500px;">We helping you find your dream location</h3><br>
+                <h3 class="secondtext " style="width: 400px;">We helping you find your dream location</h3><br>
                 <p class="par1 text-secondary" style="width: 400px;">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC.</p>
                 <div class="big">
                     <div class="div-2">
@@ -708,17 +713,15 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="column-22">
-                            <div class="div-7">
-                                <div class="div-8">
-                                    <div class="div-9">2k+</div>
-                                    <div class="div-10">Happy Customer</div>
+                        <div class="column11">
+                            <div class="div-3">
+                                <div class="div-4">
+                                    <div class="div-5">7</div>
+                                    <div class="div-6">Premium Airlines</div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                </div>
-                <div class="big">
                     <div class="div-2">
                         <div class="column11">
                             <div class="div-3">
@@ -728,11 +731,11 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="column-22">
-                            <div class="div-7">
-                                <div class="div-8">
-                                    <div class="div-9">2k+</div>
-                                    <div class="div-10">Happy Customer</div>
+                        <div class="column11">
+                            <div class="div-3">
+                                <div class="div-4">
+                                    <div class="div-5">7</div>
+                                    <div class="div-6">Premium Airlines</div>
                                 </div>
                             </div>
                         </div>
@@ -742,6 +745,7 @@
         </div>
     </div>
 </div>
+
 
 
 <div class="py-5 text-left container">
