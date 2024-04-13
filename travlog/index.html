@@ -101,7 +101,6 @@
         .bi {
             vertical-align: -.125em;
             fill: currentColor;
-            text-decoration: none;
         }
         
         .nav-scroller {
@@ -304,13 +303,9 @@
         }
         
         @media (max-width: 991px) {
-            .carousel-inner {
-                display: flex;
-                justify-content: center;
-                align-items: center;
-            }
             .div-2 {
                 flex-direction: column;
+                align-items: stretch;
                 gap: 0px;
             }
         }
@@ -337,16 +332,17 @@
             border-width: 1px;
             background-color: var(--white, color(display-p3 1 1 1));
             display: flex;
+            flex-grow: 1;
             justify-content: center;
             width: 100%;
-            padding: 92px;
+            padding: 32px;
         }
         
         @media (max-width: 991px) {
             .div-3 {
                 max-width: 100%;
                 margin-top: 12px;
-                padding: 20px 20px 20px 20px;
+                padding: 0 20px;
             }
         }
         
@@ -376,30 +372,30 @@
         }
         
         @media (max-width: 991px) {
-            /* .column-22 {
+            .column-22 {
                 width: 100%;
-            } */
+            }
         }
         
         .div-3 {
             align-items: center;
-            border-radius: 22px;
+            border-radius: 32px;
             border-color: rgba(25, 24, 37, 0.1);
             border-style: solid;
             border-width: 1px;
             background-color: var(--white, color(display-p3 1 1 1));
             display: flex;
-            width: 200px;
+            flex-grow: 1;
             justify-content: center;
             width: 100%;
-            padding: 20PX 20PX 20px 20px;
+            padding: 20PX 20PX;
         }
         
         @media (max-width: 991px) {
             .div-7 {
                 max-width: 100%;
                 margin-top: 32px;
-                padding: 10PX 40px;
+                padding: 10PX 90px;
             }
         }
         
@@ -496,7 +492,7 @@
             <div class="col-md-6 text-section">
                 <span class="topbtn shadow " style="color: #F85E9F;">Explore the world!
             </span><br><br><br>
-                <div class="fonts text-ed">Travel <span class="pinkf " style="color: #F85E9F;"> top destination </span> of the world</div><br>
+                <div class="fonts text-darked">Travel <span class="pinkf " style="color: #F85E9F;"> top destination </span> of the world</div><br>
                 <p class="par1 text-secondary" style="width: 370px; font-family: poppins; font-size: 18px;">
                     We always make our customer happy by providing as many choices as possible
                 </p>
@@ -577,7 +573,7 @@
 
 
 <div class="container con1 pt-5 pb-5">
-    <div class="row d-flex justify-content-center align-items-center">
+    <div class="row">
         <div class="col-md-6">
             <div class="left-text" style="width: 400px;">
                 <h2 class="pinktext ">top destination</h2>
@@ -645,7 +641,7 @@
                         </div>
                     </div>
                     <div class="carousel-item">
-                        <div class="row d-flex justify-content-center">
+                        <div class="row">
 
                             <div class="col-md-4 mb-3">
                                 <div class="card" style="width: 18rem ;  height: 400px;">
