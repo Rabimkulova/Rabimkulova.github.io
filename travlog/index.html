@@ -59,7 +59,11 @@
             }
         }
         
-        @media (max-width:880px) {}
+        @media (max-width:780px) {
+            .nav {
+                display: none;
+            }
+        }
         
         .signup-btn {
             width: 72px;
@@ -230,9 +234,6 @@
                 font-size: 16px;
                 /* Reduce font size on smaller screens */
             }
-            .nav {
-                display: none;
-            }
             .logotip {
                 position: relative;
                 top: 55px;
@@ -398,10 +399,6 @@
                 max-width: 100%;
                 margin-top: 32px;
                 padding: 10PX 40px;
-            }
-            .flex-r {
-                display: flex;
-                flex-direction: column;
             }
         }
         
@@ -599,7 +596,7 @@
 
                 <div class="carousel-inner">
                     <div class="carousel-item active">
-                        <div class="row flex-r">
+                        <div class="row">
 
                             <div class="col-md-4 mb-3">
                                 <div class="card" style="width: 18rem ;  height: 400px;height: 400px;">
@@ -647,7 +644,7 @@
                         </div>
                     </div>
                     <div class="carousel-item">
-                        <div class="row d-flex justify-content-center align-items-center flex-r">
+                        <div class="row d-flex justify-content-center">
 
                             <div class="col-md-4 mb-3">
                                 <div class="card" style="width: 18rem ;  height: 400px;">
