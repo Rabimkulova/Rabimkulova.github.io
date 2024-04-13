@@ -303,6 +303,11 @@
         }
         
         @media (max-width: 991px) {
+            .carousel-inner {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
             .div-2 {
                 flex-direction: column;
                 gap: 0px;
@@ -333,7 +338,7 @@
             display: flex;
             justify-content: center;
             width: 100%;
-            padding: 92px 0;
+            padding: 92px;
         }
         
         @media (max-width: 991px) {
@@ -394,6 +399,10 @@
                 max-width: 100%;
                 margin-top: 32px;
                 padding: 10PX 40px;
+            }
+            .flex-r {
+                display: flex;
+                flex-direction: column;
             }
         }
         
@@ -571,7 +580,7 @@
 
 
 <div class="container con1 pt-5 pb-5">
-    <div class="row">
+    <div class="row d-flex justify-content-center align-items-center">
         <div class="col-md-6">
             <div class="left-text" style="width: 400px;">
                 <h2 class="pinktext ">top destination</h2>
@@ -591,7 +600,7 @@
 
                 <div class="carousel-inner">
                     <div class="carousel-item active">
-                        <div class="row">
+                        <div class="row flex-r">
 
                             <div class="col-md-4 mb-3">
                                 <div class="card" style="width: 18rem ;  height: 400px;height: 400px;">
@@ -639,7 +648,7 @@
                         </div>
                     </div>
                     <div class="carousel-item">
-                        <div class="row">
+                        <div class="row d-flex justify-content-center align-items-center flex-r">
 
                             <div class="col-md-4 mb-3">
                                 <div class="card" style="width: 18rem ;  height: 400px;">
