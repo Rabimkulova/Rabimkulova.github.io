@@ -42,6 +42,10 @@
             border-radius: 80px 80px 20px 20px;
         }
         
+        .topbtn {
+            width: 400px;
+        }
+        
         .partner-logo {
             max-width: 100%;
             height: auto;
@@ -53,13 +57,18 @@
             transform: translatex(-50%);
         }
         
-        .navbar-expand-md .navbar-nav-center {
-            position: static;
-            transform: none;
+        @media (min-width: 768px) {
+            .navbar-expand-md .navbar-nav-center {
+                position: static;
+                transform: none;
+            }
         }
         
         @media (max-width:780px) {
             .nav {
+                display: none;
+            }
+            .login {
                 display: none;
             }
         }
@@ -79,6 +88,10 @@
         @media (min-width: 768px) {
             .bd-placeholder-img-lg {
                 font-size: 3.5rem;
+            }
+            .carousel-inner {
+                display: flex;
+                flex-direction: row;
             }
         }
         
@@ -303,7 +316,7 @@
         
         @media (max-width: 991px) {
             .div-2 {
-                flex-direction: row;
+                flex-direction: column;
                 align-items: stretch;
                 gap: 0px;
             }
@@ -311,7 +324,7 @@
         
         .column11 {
             display: flex;
-            flex-direction: row;
+            flex-direction: column;
             line-height: normal;
             width: 40%;
             margin-left: 0px;
@@ -479,7 +492,7 @@
     </ul>
 
     <div class="col-md-3 text-end container">
-        <button type="button" class="btn  me-2">Login</button>
+        <button type="button" class="btn  me-2 login">Login</button>
         <button type="button" class="btn prim">Sign-up</button>
     </div>
 </header>
@@ -489,7 +502,7 @@
     <div class="py-5 text-left container">
         <div class="row">
             <div class="col-md-6 text-section">
-                <span class="topbtn shadow " style="color: #F85E9F;">Explore the world!
+                <span class="topbtn shadow " style="color: #F85E9F;" style="width: 300px;">Explore the world!
             </span><br><br><br>
                 <div class="fonts text-darked">Travel <span class="pinkf " style="color: #F85E9F;"> top destination </span> of the world</div><br>
                 <p class="par1 text-secondary" style="width: 370px; font-family: poppins; font-size: 18px;">
@@ -623,7 +636,7 @@
                                 </div>
                             </div>
                             <div class="col-md-4 mb-3">
-                                <div class="card" style="width: 18rem ;  height: 400px;">
+                                <div class="card" style="width: 18rem;  height: 400px;">
                                     <img src="rec.svg" class="card-img-top" alt="...">
                                     <br>
                                     <div class="card-body">
@@ -668,7 +681,7 @@
                                         </h6>
 
                                     </div>
-                                </div>
+                                </div>big
                             </div>
                             <div class="col-md-4 mb-3">
                                 <div class="card" style="width: 18rem ;  height: 400px;">
