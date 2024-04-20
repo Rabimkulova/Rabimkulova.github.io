@@ -5,6 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer"
+    />
 
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js">
@@ -65,6 +67,30 @@
             .login {
                 display: none;
             }
+            .footers-1,
+            .pair {
+                display: flex;
+                flex-direction: column;
+                flex-wrap: wrap;
+            }
+            .pair {
+                transform: scale(0.8) translateY(-200px);
+            }
+            .pair button {
+                transform: scale(0.8) translateY(-50px);
+            }
+            .footers-1 {
+                width: 90%;
+            }
+        }
+        
+        .pair {
+            width: 90%;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            gap: 40px;
         }
         
         .signup-btn {
@@ -230,7 +256,7 @@
             /* Add margin between elements */
         }
         
-        .card {
+        pair .card {
             height: 300px;
             /* Adjust height as needed */
         }
@@ -248,6 +274,9 @@
                 display: flex;
                 justify-content: center;
                 align-items: center;
+            }
+            h3 {
+                transform: scale(0.8);
             }
         }
         
@@ -670,7 +699,7 @@
                                             <h6 class="text-secondary">
                                                 Maldives
                                             </h6>
-
+                                            footers
                                         </div>
                                     </div>
                                 </div>
@@ -787,57 +816,79 @@
 
 
     <div class="container">
+
         <iframe src="carousel.html" width="100%" height="600px"></iframe>
     </div>
 
     <div style="height: 608px; background: #FACD4914; margin-top: 230px;" class="container position-relative  rounded-5 d-block justify-content-center align-content-center mb-5">
-        <img style="top: -65px; left: -47px;" class="position-absolute" src="img/bg-mini.png" alt="">
-        <div style="xheight: 352px;" class="bg-transparent m-auto text-center">
-            <h5 style="color: #F85E9F; letter-spacing: 5px;" class="mb-3 text-uppercase">subscribe to our newsletter</h5>
-            <h3 style="font-size: 44px; font-weight: 700;" class="text-black mb-4 fw-bold mt-2">Prepare yourself & let’s explore the <br> beauty of the world</h3>
+        <img style="top: -65px; left: -47px;" class="position-absolute" src="https://cdn.builder.io/api/v1/image/assets/TEMP/deaa02ddfaffd95ce9182718a4147760646858952bc747996c2397f448e75c65?" alt="">
+        <div style="height: 352px;" class="bg-transparent m-auto text-center">
+            <h5 style="color: #F85E9F; letter-spacing: 5px; font-size: 20px;" class="mb-3 text-uppercase text-pink">subscribe to our newsletter</h5>
+            <h3 style="font-size: 54px; font-weight: 700; margin-bottom: 50px;" class="text-black  fw-bold mt-2">Prepare yourself & let’s explore the <br> beauty of the world</h3>
             <form class="container-fluid d-flex justify-content-between position-relative">
-                <input style="width: 757px; height: 96px; font-size: 23px; padding-left: 70px;" class="about form-control rounded-5 border-0" type="email" placeholder="Your Email">
-                <button class="btn" style="width: 235px; height: 96px; font-size: 23px; background: #5D50C6; color: #fff;" type="submit" class="form-control text-center rounded-5 text-white" value="Subscribe">Subscribe</button>
+                <div class="pair">
+
+                    <input style="width: 50%; height: 96px; font-size: 23px; padding-left: 70px;" class="about form-control rounded-5 border-0" type="email" placeholder="Your Email">
+                    <button class="btn" style="width: 235px; height: 96px; font-size: 23px; background: #5D50C6; color: #fff;" type="submit" class="form-control text-center rounded-5 text-white" value="Subscribe">Subscribe</button>
+
+                </div>
                 <i style="color: #000; font-size: 32px; position: absolute; top: 32px; left: 20px;" class='bx bxs-envelope'></i>
             </form>
         </div>
     </div>
 
-    <div style="width: 1184px; height: 434px; margin-top: 100px;" class="footers-1 container d-flex justify-content-between align-content-center">
-        <div style="width: 560px;" class="footers-2 h-auto me-5">
-            <img class="mb-5" src="logo.svg" alt="">
-            <p style="font-size: 23px;">
-                Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC.
-            </p>
-            <div style="width: 230px;" class="h-auto d-flex justify-content-between mt-5">
-                <div style="background: #5D50C6; width: 45px; height: 45px; border-radius: 50%;" class="d-flex justify-content-center align-content-center align-items-center"><i style="font-size: 32px; color: #ffffff;" class='bx bxl-facebook'></i></div>
-                <div style="background: #5D50C6; width: 45px; height: 45px; border-radius: 50%;" class="d-flex justify-content-center align-content-center align-items-center"><i style="font-size: 32px; color: #ffffff;" class='bx bxl-twitter'></i></div>
-                <div style="background: #5D50C6; width: 45px; height: 45px; border-radius: 50%;" class="d-flex justify-content-center align-content-center align-items-center"><i style="font-size: 32px; color: #ffffff;" class='bx bxl-instagram'></i></div>
+
+
+    <footer class="bd-footer py-4 py-md-5 mt-5 bg-body-tertiary" style="gap: 800px; margin-top: 300px;">
+        <div class="container py-4 py-md-5 px-4 px-md-3 text-body-secondary">
+            <div class="row" style="gap: 60px;">
+                <div class="col-lg-3 mb-3">
+                    <a class="d-inline-flex align-items-center mb-2 text-body-emphasis text-decoration-none" href="/" aria-label="Bootstrap">
+                        <img src="logo.svg" alt=""> <span class="fs-5"></span>
+                    </a><br><br>
+                    <ul class="list-unstyled small">
+                        <li class="mb-2" style="font-size: 15px;"> Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC.</li>
+
+                    </ul>
+                    <div style="width: 230px;" class="h-auto d-flex justify-content-between mt-5">
+                        <div style="background: #5D50C6; width: 45px; height: 45px; border-radius: 50%;" class="d-flex justify-content-center align-content-center align-items-center"><i style="font-size: 18px; color: #ffffff;" class='fa-brands fa-facebook-f'></i></div>
+                        <div style="background: #5D50C6; width: 45px; height: 45px; border-radius: 50%;" class="d-flex justify-content-center align-content-center align-items-center"><i style="font-size: 18px; color: #ffffff;" class='fa-brands fa-twitter'></i></div>
+                        <div style="background: #5D50C6; width: 45px; height: 45px; border-radius: 50%;" class="d-flex justify-content-center align-content-center align-items-center"><i style="font-size: 18px; color: #ffffff;" class='fa-brands fa-instagram'></i></div>
+                    </div>
+                </div>
+
+                <div class="col-6 col-lg-2 mb-3">
+                    <h5>Company</h5>
+                    <ul class="list-unstyled">
+                        <li class="mb-2"><a href="/docs/5.3/getting-started/">About</a></li>
+                        <li class="mb-2"><a href="/docs/5.3/examples/starter-template/">Career</a></li>
+                        <li class="mb-2"><a href="/docs/5.3/getting-started/webpack/">Mobile</a></li>
+
+                    </ul>
+                </div>
+                <div class="col-6 col-lg-2 mb-3">
+                    <h5>Contact</h5>
+                    <ul class="list-unstyled">
+                        <li class="mb-2"><a href="https://github.com/twbs/bootstrap" target="_blank" rel="noopener">Why travlog</a></li>
+                        <li class="mb-2"><a href="https://github.com/twbs/bootstrap/tree/v4-dev" target="_blank" rel="noopener">partner with us</a></li>
+                        <li class="mb-2"><a href="https://github.com/twbs/icons" target="_blank" rel="noopener">Icons</a></li>
+                        <li class="mb-2"><a href="https://github.com/twbs/rfs" target="_blank" rel="noopener">FAQ's</a></li>
+                        <li class="mb-2"><a href="https://github.com/twbs/examples/" target="_blank" rel="noopener">Vlog</a></li>
+                    </ul>
+                </div>
+                <div class="col-6 col-lg-2 mb-3">
+                    <h5>Contact</h5>
+                    <ul class="list-unstyled">
+                        <li class="mb-2"><a href="https://github.com/twbs/bootstrap" target="_blank" rel="noopener">Why travlog</a></li>
+                        <li class="mb-2"><a href="https://github.com/twbs/bootstrap/tree/v4-dev" target="_blank" rel="noopener">partner with us</a></li>
+                        <li class="mb-2"><a href="https://github.com/twbs/icons" target="_blank" rel="noopener">Icons</a></li>
+                        <li class="mb-2"><a href="https://github.com/twbs/rfs" target="_blank" rel="noopener">FAQ's</a></li>
+                        <li class="mb-2"><a href="https://github.com/twbs/examples/" target="_blank" rel="noopener">Vlog</a></li>
+                    </ul>
+                </div>
             </div>
         </div>
-        <div class="footers-3 w-50 h-auto d-flex justify-content-between ms-2">
-            <ul style="width: 165px; height: 216px;" class="ps-0">
-                <li style="font-size: 32px;" class="list-inline"><a href="#" class="text-decoration-none text-black">Company</a></li>
-                <li style="font-size: 18px;" class="list-inline mt-4"><a style="color: #191825BF;" href="#" class="text-decoration-none">About</a></li>
-                <li style="font-size: 18px;" class="list-inline mt-4"><a style="color: #191825BF;" href="#" class="text-decoration-none">Career</a></li>
-                <li style="font-size: 18px;" class="list-inline mt-4"><a style="color: #191825BF;" href="#" class="text-decoration-none">Mobile</a></li>
-            </ul>
-            <ul style="width: 165px; height: 216px;" class="ps-0">
-                <li style="font-size: 32px;" class="list-inline"><a href="#" class="text-decoration-none text-black">Contact</a></li>
-                <li style="font-size: 18px;" class="list-inline mt-4"><a style="color: #191825BF;" href="#" class="text-decoration-none">Why Travlog?</a></li>
-                <li style="font-size: 18px;" class="list-inline mt-4"><a style="color: #191825BF;" href="#" class="text-decoration-none">Partner with us</a></li>
-                <li style="font-size: 18px;" class="list-inline mt-4"><a style="color: #191825BF;" href="#" class="text-decoration-none">FAQ’s</a></li>
-                <li style="font-size: 18px;" class="list-inline mt-4"><a style="color: #191825BF;" href="#" class="text-decoration-none">Blog</a></li>
-            </ul>
-            <ul style="width: 165px; height: 216px;" class="ps-0">
-                <li style="font-size: 32px;" class="list-inline"><a href="#" class="text-decoration-none text-black">Meet Us</a></li>
-                <li style="font-size: 18px;" class="list-inline mt-4"><a style="color: #191825BF;" href="#" class="text-decoration-none">+00 92 1234 56789</a></li>
-                <li style="font-size: 18px;" class="list-inline mt-4"><a style="color: #191825BF;" href="#" class="text-decoration-none">info@travlog.com</a></li>
-                <li style="font-size: 18px;" class="list-inline mt-4"><a style="color: #191825BF;" href="#" class="text-decoration-none">205. R Street, New <br> York</a></li>
-                <li style="font-size: 18px;" class="list-inline mt-4"><a style="color: #191825BF;" href="#" class="text-decoration-none">BD23200</a></li>
-            </ul>
-        </div>
-    </div>
+    </footer>
 
     <footer class="text-body-secondary py-5">
         <div class="container">
